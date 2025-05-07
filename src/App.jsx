@@ -9,15 +9,15 @@ const App = () => {
   return (
     <div>
       <Provider store={store}>
-      <header style={{ display: 'flex', justifyContent: 'space-between', padding: 20 ,textAlign:'center'}}>
+      <header style={{ display:'flex',justifyContent:'space-between',padding:20,textAlign:'center'}}>
       <h1>My Shop</h1>
       <CartIcon/>
       </header>
-      <div style={{ display: 'flex', padding: '20px', gap: '40px', alignItems: 'flex-start' }}>
-          <div style={{ flex: 2 }}>
+      <div style={{display:'flex',padding:'20px',gap:'40px',alignItems:'flex-start'}}>
+          <div style={{flex:2}}>
             <ProductList />
           </div>
-          <div style={{ flex: 1 }}>
+          <div style={{flex:1}}>
             <Cart />
           </div>
         </div>

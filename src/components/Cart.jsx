@@ -20,7 +20,7 @@ const Cart = () => {
               <button style={{backgroundColor:"green",padding:'10px', borderRadius:'5px', color:'white',fontWeight:'600'}} onClick={() => dispatch(removeFromCart(item.id))}>−</button>
             </div>
           ))}
-          <button style={{backgroundColor:'#B17F59', color:'white',padding:'10px',borderRadius:'5px',fontWeight:'600'}} onClick={() => dispatch(clearCart())}>Clear Cart</button>
+          <button style={{backgroundColor:'#B17F59',color:'white',padding:'10px',borderRadius:'5px',fontWeight:'600',border:'none',boxShadow:'0 4px 8px black'}} onClick={() => dispatch(clearCart())}>Clear Cart</button>
         </>
       )}
 
